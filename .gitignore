@@ -1,0 +1,11 @@
+.DS_Store
+node_modules/
+.env
+.env.local
+.env.*.local
+
+# server: hot keys, kek, database url — never committed
+server/.env
+server/.env.*
+!server/.env.example
+server/dist/
